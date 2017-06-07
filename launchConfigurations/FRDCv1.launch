@@ -1,0 +1,16 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "klgDemo",
+      "Space": "Banking"
+    },
+    "Name": "FRDCv1",
+    "Instrumentation": {
+      "domain": "mybluemix.net"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
